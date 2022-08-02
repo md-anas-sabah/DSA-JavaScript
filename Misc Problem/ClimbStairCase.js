@@ -11,7 +11,8 @@ function climbingStaircase(n) {
   return noOfWays[n - 1];
 }
 
+// Big O - O(n)
+
 console.log(climbingStaircase(1));
 console.log(climbingStaircase(2));
 console.log(climbingStaircase(4));
-
