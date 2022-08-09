@@ -12,7 +12,7 @@ class LinkedListStack {
     return this.list.removeFromHead();
   }
   peek() {
-    return this.head.value;
+    return this.list.head.value;
   }
   isEmpty() {
     return this.list.isEmpty();
