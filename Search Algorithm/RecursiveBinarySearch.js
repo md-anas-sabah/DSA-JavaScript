@@ -17,4 +17,6 @@ function search(arr, target, left, right) {
   }
 }
 
+//Big O - O(logn)
+
 console.log(recursiveBinarySearch([10, 20, 30, 40, 50], 10));
